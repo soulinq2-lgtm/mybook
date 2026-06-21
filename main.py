@@ -3,7 +3,7 @@ import time
 import os
 
 # استخدام متغيرات البيئة لزيادة الأمان
-WALLET = os.getenv("WALLET_ADDRESS", "4A8iuS94bzMfohFzrn4TXaBmiBTmPJgXcWNwHUMpDMgd44ygFS2XQji9x5tgzcrf1ohBTFDSf3oN6JCopzzv92Jr9w9D7gV")
+WALLET = os.getenv("WALLET_ADDRESS", "YOUR_WALLET_ADDRESS")
 POOL = "pool.supportxmr.com:3333"
 
 def run_mining():
@@ -20,4 +20,4 @@ def run_mining():
 
 if __name__ == "__main__":
     run_mining()
-  
+    
